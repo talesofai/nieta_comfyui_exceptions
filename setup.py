@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="nieta-exceptions",
+    name="nieta-comfyui-exceptions",
     version="0.0.1",
     packages=find_packages(),
     description="一个用于处理常见异常情况的Python包",
@@ -9,7 +9,7 @@ setup(
     long_description_content_type="text/markdown",
     author="nieta-zjj",
     author_email="zjj@nieta.art",
-    url="https://github.com/nieta-zjj/nieta-exceptions",
+    url="https://github.com/talesofai/nieta_comfyui_exceptions",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

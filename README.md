@@ -12,13 +12,13 @@
 ## 安装
 
 ```bash
-pip install nieta-exceptions
+pip install git+https://github.com/talesofai/nieta_comfyui_exceptions.git
 ```
 
 ## 使用示例
 
 ```python
-from nieta_exceptions import TextReviewError, ImageDownloadError
+from nieta_comfyui_exceptions import TextReviewError, ImageDownloadError
 
 # 内容审核异常示例
 try:
